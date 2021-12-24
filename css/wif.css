@@ -1,0 +1,83 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:45px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px rgb(3, 252, 3);
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.header-bottom {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+	background-color: transparent;
+	padding: 40px 0;
+	transition: 0.3s;
+  }
+
+  .sticky-container {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: -130px;
+    top: 230px;
+    width: 210px;
+	
+    z-index: 1100;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.sticky li {
+    list-style-type: none;
+    /* background-color: #92f11e; */
+    color: #efefef;
+    height: 43px;
+    padding: 0px;
+    margin: 0px 0px 1px 40px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+}
+.myhomemap{
+
+  overflow:hidden;
+
+  padding-bottom:56.25%;
+
+  position:relative;
+
+  height:0;
+
+}
+
+.myhomemap iframe{
+
+  left:0;
+
+  top:0;
+
+  height:80%;
+
+  width:100%;
+
+  position:absolute;
+
+}
